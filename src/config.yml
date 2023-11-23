@@ -1,0 +1,26 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                             #
+#                       Game Config Settings                  #
+#                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+Time-Settings:
+  Default-Gameplay-Time: 1200
+  Lobby-Waiting-Time: 15
+  Lobby-Starting-Time: 60
+  Ending-Time: 5
+  
+signs:
+  game-states:
+    waiting: "&lWaiting..."
+    starting: "&e&lStarting"
+    playing: "&lIn-game"
+    full-game: "&c&lFULL"
+    ending: "&lEnding"
+    restarting: "&c&lRestarting"
+    inactive: "&lInactive..."
+  lines:
+    - "&4&lTales of Panem"
+    - "%state%"
+    - "%map_name%"
+    - "&5[%players%/%max_players%]"

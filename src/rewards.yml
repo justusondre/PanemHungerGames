@@ -1,0 +1,20 @@
+Rewards-Enabled: true
+
+Rewards:
+  Player-Kill:
+    - eco give %player% 2
+    
+  Death:
+    - p:say Somebody killed me! :(
+    
+  End-Game:
+    - eco give %player% 2
+    - p:say Wow, the game ended!
+
+  Win:
+    - chance(10):eco give %player% 8
+    - p:say I won the game!
+    
+  Lose:
+    - chance(99):eco give %player% 1
+    - p:say Hmm, I think lost the game!

@@ -1,0 +1,12 @@
+instance:
+  default:
+    mapName: "default"
+    minimumPlayers: 4
+    maximumPlayers: 24
+    gameplayTime: 270
+    ready: false
+    lobbyLocation: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    endLocation: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    parkourEndLocation: world, -994.000, 4.000, 853.000, 0.000, 0.000
+    playerSpawnPoints: []
+    signs: []

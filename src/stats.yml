@@ -1,0 +1,19 @@
+name: GameEngine
+version: 1.0
+api-version: 1.19
+author: Ondre
+main: Main
+
+commands:
+  createarena:
+  setarenalobby:
+  setspectator:
+  joinarena:
+  tpworld:
+  load:
+  unload:
+  setplayerspawn:
+  startevent:
+  setcenter:
+  leavearena:
+  setparkourend:
